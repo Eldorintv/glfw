@@ -19,6 +19,10 @@ MinSizeRel
 RelWithDebInfo
 *.opensdf
 
+# Build results on 'Bin' directories
+**/[Bb]in/*
+**/[Bb]in-int/*
+
 # Xcode clutter
 GLFW.build
 GLFW.xcodeproj
